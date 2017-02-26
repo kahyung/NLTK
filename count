@@ -1,8 +1,0 @@
-from nltk.book import *
-
-def percentage(text, word):
-    total = len(text)
-    count = text.count("%s") % word
-    return 100 * count/total
-
-def percentage(text3, smote)
